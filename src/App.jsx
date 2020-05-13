@@ -3,9 +3,9 @@ import React from "react";
 //import apiContacts from "./data/contacts.json";
 
 import "./App.scss";
-import Contacts from "./components/contacts/Contacts";
-import Filters from "./components/filters/Filters";
-import Topbar from "./components/topbar/Topbar";
+import Contacts from "./components/Contacts";
+import Filters from "./components/Filters";
+import Topbar from "./components/Topbar";
 
 class App extends React.Component {
   constructor(props) {
